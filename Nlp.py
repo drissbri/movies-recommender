@@ -1,7 +1,6 @@
 import re
 from sklearn.feature_extraction.text import TfidfVectorizer
 
-
 class Nlp :
     def __init__(self, stopwords, negative_words, positive_words, tfidf_dataset):
         self.stopwords = stopwords
