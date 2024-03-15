@@ -18,7 +18,7 @@ This project is a content-based movie recommendation system that uses natural la
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/yourgithub/recommendation_system.git
+git clone https://github.com/drissbri/Movies-Recommender
 cd recommendation_system
 ```
 
@@ -37,10 +37,10 @@ pip install pandas scikit-learn
 
 ## Usage
 
-1. **Run the Recommendation System**
+1. **Run the Recommendation System test**
 
 ```python
-python recommendation_system.py
+python teat.py
 ```
 
 2. **Interact with the System**
