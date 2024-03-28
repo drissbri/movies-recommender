@@ -1,4 +1,4 @@
-import re
+from re import sub
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 class Nlp :
@@ -11,8 +11,8 @@ class Nlp :
     
     def clean_text(self,text):
         text = text.lower()
-        text = re.sub(r'\b\d+\b', '', text)
-        text = re.sub(r'[^\w\s]', '', text)
+        text = sub(r'\b\d+\b', '', text)
+        text = sub(r'[^\w\s]', '', text)
         return text
 
     def remove_stopwords(self,text):
@@ -45,4 +45,3 @@ class Nlp :
         sorted_scores = sorted(scores, key=lambda x: x[1], reverse=True)
         
         return [word for word, score in sorted_scores if score > 0]
-
