@@ -27,13 +27,13 @@ cd recommendation_system
 Ensure you have Python installed on your system. Then, install the required libraries using pip:
 
 ```bash
-pip install pandas scikit-learn
+pip install -r requirements.txt
 ```
 
 3. **Prepare Data**
 
-- Place your `netflix_titles.csv` in the `movie_data` directory.
-- Ensure you have `stopwords.txt`, `positif_words.txt`, and `negatif_words.txt` in the `nlp_data` directory.
+- Place your `netflix_titles.csv` in the `movie_data` directory (there is sample data there already).
+- Ensure you have `stopwords.txt`, `positif_words.txt`, and `negatif_words.txt` in the `nlp_data` directory (there is sample data there already).
 
 ## Usage
 
