@@ -18,8 +18,8 @@ This project is a content-based movie recommendation system that uses natural la
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/drissbri/Movies-Recommender
-cd recommendation_system
+git clone https://github.com/drissbri/movies-recommender
+cd movies-recommender
 ```
 
 2. **Install required libraries**
@@ -50,9 +50,11 @@ python teat.py
 
 ## Project Structure
 
-- `recommendation_system.py` - The main script that runs the recommendation system.
-- `Nlp.py` - Contains the NLP processing functionality.
-- `Movie.py` - Defines the Movie, User, and Comment classes.
+- `movies-recommender/nlp.py` - Contains the NLP processing functionality.
+- `movies-recommender/movie.py` - Defines the Movie class.
+- `movies-recommender/user.py` - Defines the User class.
+- `movies-recommender/comment.py` - Defines the Comment class.
+- `test.py` - The main test script that runs the recommendation system.
 - `movie_data/` - Directory containing the movie dataset.
 - `nlp_data/` - Directory containing NLP-related data, such as stopwords and sentiment words.
 
